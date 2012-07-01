@@ -1,0 +1,2 @@
+g++ -c nestedParallel.cpp
+g++ nestedParallel.o main.cpp -o main -lmpi -lmpi_cxx
